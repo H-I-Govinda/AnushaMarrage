@@ -6,6 +6,6 @@ from django.conf import settings
 app_name = 'anumarrage'
 
 urlpatterns = [
-    path('home/',views.home,name='home'),
+    path('anusha-weds-chethan/',views.home,name='home'),
 ]
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

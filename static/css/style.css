@@ -328,7 +328,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .backgrndPic{
 
-  background-image: url("../images/image/background.jpg")
+  background-image: url("{% static 'images/image/9.jpg' %}")
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover .display-t,
@@ -336,7 +336,7 @@ h1, h2, h3, h4, h5, h6, figure {
     height: 600px;
   }
   .backgrndPic{
-    background-image: url("../images/image/background1.jpg");
+    background-image: url("{% static 'images/image/9.jpg' %}");
   }
   
 }
